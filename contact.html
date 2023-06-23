@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    #container {
+      display: flex;
+    }
+
+    #left-panel {
+      width: 200px;
+      background: #3e8ed0;
+      color: #fff;
+      padding: 20px;
+    }
+
+    #left-panel ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    #left-panel li {
+      padding: 10px;
+    }
+
+    #left-panel li a {
+      display: block;
+      padding: 10px;
+      color: #fff;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    #left-panel li a:hover {
+      background-color: #2b6ca8;
+    }
+
+    #content {
+      flex: 1;
+      padding: 20px;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    form div {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    textarea {
+      height: 100px;
+    }
+
+    button[type="submit"] {
+      background-color: #3e8ed0;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #2b6ca8;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div id="left-panel">
+      <ul>
+        <li><a href="#home-content">Home</a></li>
+        <li><a href="#contact-content">Contact</a></li>
+        <li><a href="information.html">Information</a></li>
+        <li><a href="guide.html">Guide</a></li>
+      </ul>
+    </div>
+
+    <div id="content">
+
+      <div id="contact-content">
+        <h2>Contact</h2>
+        <form>
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div>
+            <label for="mobile">Mobile:</label>
+            <input type="tel" id="mobile" name="mobile" required>
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <div>
+            <button type="submit">
+                submit
+        </button>
+        </div>
+   
+        </form>
+        </div>
+        </div>
+        </div>
+        </body>
+        </html>

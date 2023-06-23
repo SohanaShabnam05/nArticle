@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    #container {
+      display: flex;
+    }
+
+    #left-panel {
+      width: 200px;
+      background: #3e8ed0;
+      color: #fff;
+      padding: 20px;
+    }
+
+    #left-panel ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    #left-panel li {
+      padding: 10px;
+    }
+
+    #left-panel li a {
+      display: block;
+      padding: 10px;
+      color: #fff;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    #left-panel li a:hover {
+      background-color: #2b6ca8;
+    }
+
+    #content {
+      flex: 1;
+      padding: 20px;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    /* Styles for the content section */
+
+    #content > div {
+      display: block;
+      background-color: #f1f1f1;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    #content > div h2 {
+      color: #333;
+    }
+
+    #content > div p {
+      color: #555;
+    }
+
+    #content > div img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div id="left-panel">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="information.html">Information</a></li>
+        <li><a href="guide.html">Guide</a></li>
+      </ul>
+    </div>
+
+    <div id="content">
+      <div id="home-content">
+        <h2>GUIDE</h2>
+        <div class="news-article">
+            <img src="photo2.jpg" alt="Image">
+        <h3>Guide in Study</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo molestiae nisi voluptas rerum ipsum repudiandae, ad tempore totam quibusdam quos.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
